@@ -1,20 +1,94 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 Krithi React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern **About Me Dashboard** built using **React + Vite**, featuring a responsive **Sidebar**, **Navbar**, and elegant UI design.  
+This project showcases my approach to **system-style UI**, **dashboard layouts**, and **frontend architecture**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**  
+https://krithiikaa.github.io/Krithi-React-Dashboard/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This dashboard is designed to present my profile, skills, and projects in a **structured, system-inspired interface**, similar to real-world internal dashboards.
 
-## Expanding the ESLint configuration
+### Key Focus Areas
+- Clean UI & layout hierarchy  
+- Reusable React components  
+- Responsive design  
+- Real-world dashboard aesthetics  
+- Scalable project structure  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Krithi-React-Dashboard
->>>>>>> b5afa9e2bb71c880144e5a7f56be745cc78a895e
+---
+
+## 🧠 Features
+
+- 📌 Fixed **Sidebar** with active state navigation  
+- 🧭 Top **Navbar** with branding and quick links  
+- 🎨 Attractive CSS with gradients, glassmorphism & glow effects  
+- 📊 Info cards and project cards  
+- 📱 Fully responsive (desktop & mobile)  
+- ⚡ Built with **Vite** for fast development and build  
+
+---
+
+## 🛠️ Tech Stack
+
+```text
+Frontend   : React
+Build Tool : Vite
+Styling    : CSS (custom, no frameworks)
+Deployment : GitHub Pages
+```
+📂 Project Structure
+```bash
+krithi-dashboard/`krithi-dashboard/```krithi-dashboard/`krithi-dashboard/``krithi-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── StatCard.jsx
+│   │   └── ProjectCard.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── .github/workflows/
+│   └── deploy.yml
+├── vite.config.js
+└── package.json
+```
+## Deployment
+
+This project is deployed using GitHub Pages with GitHub Actions.
+
+Deployment flow:
+- Push code to the `main` branch
+- GitHub Actions builds the project
+- The `dist/` folder is deployed automatically
+- The application is live on GitHub Pages
+
+---
+
+## What I Learned
+
+- Configuring Vite base paths for GitHub Pages
+- Structuring React dashboards in a clean and scalable way
+- Designing UI without heavy CSS frameworks
+- Automating deployment using GitHub Actions
+
+---
+
+## Future Enhancements
+
+- Multi-page routing using `react-router-dom`
+- Dark / Light mode toggle
+- Dynamic data loading
+- Animations using Framer Motion
+- Project details modal or dedicated project page
+
+---
+
+## Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/kiruthigaa-k/
+- GitHub: https://github.com/Krithiikaa
